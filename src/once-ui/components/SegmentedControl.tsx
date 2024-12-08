@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
 import { Flex, ToggleButton, Scroller } from '.';
 
 interface ButtonOption {
@@ -10,6 +11,16 @@ interface ButtonOption {
     suffixIcon?: string;
     className?: string;
 }
+
+
+interface CustomMDXProps {
+    source: MDXRemoteSerializeResult;
+    components?: Record<string, React.ComponentType>;
+}
+  
+  export function CustomMDX({ source, components }: CustomMDXProps) {
+    return <MDXRemote {...source} components={components} />;
+  }
 
 interface SegmentedControlProps {
     buttons: ButtonOption[];

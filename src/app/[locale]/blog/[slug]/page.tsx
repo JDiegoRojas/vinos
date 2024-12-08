@@ -75,7 +75,7 @@ export function generateMetadata({ params: { slug, locale } }: BlogParams) {
 	}
 }
 
-export default function Blog({ params }: BlogParams) {
+export default async function Blog({ params }: BlogParams) {
 	unstable_setRequestLocale(params.locale);
 	let post = getPosts(['src', 'app', '[locale]', 'blog', 'posts', params.locale]).find((post) => post.slug === params.slug)
 
@@ -142,7 +142,7 @@ export default function Blog({ params }: BlogParams) {
 				as="article"
 				direction="column"
 				fillWidth>
-				<CustomMDX source={post.content} />
+				{await CustomMDX({ content: post.content })}
 			</Flex>
 		</Flex>
 	)
