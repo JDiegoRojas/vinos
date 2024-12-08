@@ -1,0 +1,81 @@
+{
+    "person": {
+        "role": "Vinos del Valle"
+    },
+    "newsletter": {
+        "title": "Suscribete a {firstName} del Valle para recibir ofertas exclusivas",
+        "description": "Suscribete para tener acceso a las más exclusivas ofertas de vinos en el Valle Jequetepeque.",
+        "button": "Sign up"
+    },
+    "home": {
+        "label": "Inicio",
+        "title": "{name}'s Portfolio",
+        "description": "Portfolio website showcasing my work as a {role}",
+        "headline": "Vinos del Valle",
+        "subline": "I'm Selene, a design engineer at FLY, where I craft intuitive user experiences. After hours, I build my own projects."
+    },
+    "about": {
+        "label": "Acerca de Vinos del Valle",
+        "title": "Acerca de Vinos del Valle",
+        "description": "Meet {name}, {role} from {location}",
+        "intro": {
+            "title": "Introduction",
+            "description": "Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology."
+        },
+        "work": {
+            "title": "Work Experience",
+            "experiences": {
+                "FLY": {
+                    "timeframe": "2022 - Present",
+                    "role": "Senior Design Engineer",
+                    "achievements": "Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.;Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster."
+                },
+                "Creativ3": {
+                    "timeframe": "2018 - 2022",
+                    "role": "Lead Designer",
+                    "achievements": "Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.;Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue."
+                }
+            }
+        },
+        "studies": {
+            "title": "Socios",
+            "institutions": {
+                "University of Jakarta": {
+                    "description": "Juan Diego Rojas Fermin."
+                },
+                "Build the Future": {
+                    "description": "Studied online marketing and personal branding."
+                }
+            }
+        },
+        "technical": {
+            "title": "Technical skills",
+            "skills": {
+                "Figma": {
+                    "description": "Able to prototype in Figma with Once UI with unnatural speed."
+                },
+                "Nextjs": {
+                    "description": "Building next gen apps with Next.js + Once UI + Supabase."
+                }
+            }
+        }
+    },
+    "blog": {
+        "label": "",
+        "title": "Catalago de Vinos del Valle",
+        "description": "Read what {name} has been up to recently"
+    },
+    "work": {
+        "label": "Catalogo",
+        "title": "My projects",
+        "description": "Design and dev projects by {name}"
+    },
+    "gallery": {
+        "label": "",
+        "title": "My photo gallery",
+        "description": "A photo collection by {name}"
+    },
+    "projectCard": {
+        "label": "Ver detalles del producto..."
+    }
+}
